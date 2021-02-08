@@ -1,0 +1,27 @@
+.serverIntro{
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-bottom: 6px solid #f1f1f1;
+}
+.serverIntro img{
+    width: 360px;
+    height: auto;
+}
+.serverIntro h1{
+    font-size: 32px;
+    color: #525252;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.serverIntro h2{
+    font-size: 14px;
+    color: #777;
+    font-size: normal;
+    margin-top: 20px;
+    line-height: 20px ;
+    text-align: center;
+}

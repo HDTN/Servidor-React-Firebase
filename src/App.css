@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #D2DBDC;
+    margin: 0;
+    font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial;  
+  }
+.app-window{
+    display: flex;
+    height: 100vh;
+    background-color: #ededed;
+}
+.sidebar{
+    width: 35%;
+    max-width: 415px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #fff;
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    background-color: #f6f6f6;
+   
+}
+.header--logo{
+    width: 70px;
+    height: 70px;
+}
+.header--names{
+    display: flex;
+}
+
+.search{
+background-color: #f6f6f6;
+border-bottom: 1px solid #f6f6f6;
+padding: 5px 15px;
+border-bottom: 4px solid #808080;
+border-radius: 10px;
+}
+.search--input{
+    background-color: #808080;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+.search--input input{
+flex: 1;
+border: 0;
+outline: 0;
+background-color: transparent;
+margin-left: 10px;
+}
+.documentlist{
+    flex: 1;
+    background-color: #FFF;
+    overflow-y: auto;
+}
+.documentlist::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+.documentlist::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.loading-container {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 100px;
+    text-align: center;
+}
+
+.loading-warning {
+    text-transform: uppercase;
+}
+
+.contentarea {
+    flex: 1;
+}

@@ -1,0 +1,149 @@
+.documentWindow{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.documentWindow--header{
+height: 60px;
+border-bottom: 3px solid #ff8509;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 10px;
+}
+.documentWindow--headerinfo{
+display: flex;
+align-items: center;
+
+}
+.documentWindow--avatar{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.documentWindow--name{
+font-size: 17px;
+color: #000;
+}
+.documentWindow--headerbutton{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.documentWindow--btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.documentListItemWindow {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+}
+.documentListWindow--headerbutton{
+    display:flex;
+    align-items:flex-end;
+    margin-right: 18px;
+}
+.documentListWindow--btn{
+    width: 10px;
+height: 50px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.documentListItemWindow:hover{
+    background-color: #f5f5f5;
+}
+.chatListItemWindow.active {
+    background-color: #ebebeb;
+}
+.documentListItemWindow--avatar{
+width: 50px;
+height: 50px;
+margin-left: 15px;
+}
+.documentListItemWindow--lines{
+flex: 1;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-bottom: 1px solid #EEE;
+padding-right: 15px;
+margin-left: 15px;
+
+flex-wrap: wrap;
+min-width: 0;
+}
+
+.documentListItemWindow--line{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+}
+
+.documentListItemWindow--name{
+    font-size: 17px;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+.documentListItemWindow--data{
+    font-size: 16px;
+    color:#999;
+    flex-direction:column;
+}
+.documentListItemWindow--lastMsg{
+ font-size: 14px;
+color: #999;
+display: flex;
+width: 100%;
+}
+.documentListItemWindow--lastMsg p{
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   margin: 0;
+}
+
+.row {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.file-card {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    height: 70px;
+}
+
+.file-card:hover {
+    background-color: #f5f5f5;
+}
+
+.download-btn {
+    text-decoration: none; 
+}
