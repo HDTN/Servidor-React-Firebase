@@ -1,7 +1,7 @@
 import React from 'react';
 import './ServerIntro.css';
 
-import illustration from "../assets/intro_illustration.png";
+import illustration from "../assets/logoreact.png";
 
 export default () => {
     return (

@@ -28,8 +28,8 @@ header{
    
 }
 .header--logo{
-    width: 70px;
-    height: 70px;
+    width: 61px;
+    height: 45px;
 }
 .header--names{
     display: flex;
@@ -39,11 +39,11 @@ header{
 background-color: #f6f6f6;
 border-bottom: 1px solid #f6f6f6;
 padding: 5px 15px;
-border-bottom: 4px solid #808080;
+border-bottom: 4px solid #054F77;
 border-radius: 10px;
 }
 .search--input{
-    background-color: #808080;
+    background-color: #f1f1f1;
     height: 40px;
     border-radius: 20px;
     display: flex;

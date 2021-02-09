@@ -1,6 +1,3 @@
-### Autor
----
-
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/41065071?s=460&amp;u=5571654cc0c5de3117e7af96cd578d961e01e305&amp;v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Natan Bortolato</b></sub></a> <a href="https://github.com/HDTN" title="GitHub">Development</a>

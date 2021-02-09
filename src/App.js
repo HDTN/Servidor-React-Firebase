@@ -8,7 +8,7 @@ import DocumentWindow from './components/DocumentWindow'
 import SearchIcon from '@material-ui/icons/Search';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-import bwsLogo from "./assets/folder_icon.png";
+import Logo from "./assets/logoreact.png";
 
 import fileService from "./services/files.service";
 
@@ -39,7 +39,7 @@ export default () => {
       <div className="sidebar">
 
         <header>
-          <img className="header--logo" src={bwsLogo} />
+          <img className="header--logo" src={Logo} />
           <div className="header--names">
             <div className="header--name">
               Document Server
